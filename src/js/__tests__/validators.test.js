@@ -1,4 +1,4 @@
-import { isValidInn } from "../validators"; 
+import isValidInn from '../validators';
 
 test('displaying the wrong INN', () => {
   const result = isValidInn('');
