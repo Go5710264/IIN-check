@@ -29,7 +29,6 @@ describe('Inn Form', () => {
 
     const form = await page.$('.innogrn-form-widget'); // получить элемент страницы
     const input = await form.$('#innorgn-input'); // получить элемент с селектором id из form
-    // const submit = await form.$('#innorgn-submit'); // получить элемент с селектором из form
 
     await input.type('1234567890'); // ввести значение в input
     await page.click('.submit'); // клик по кнопке
@@ -41,6 +40,3 @@ describe('Inn Form', () => {
     await browser.close();
   });
 });
-
-// test('should open the page', () => { // стандартная заглушка
-// });

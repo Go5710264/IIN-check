@@ -24,6 +24,3 @@ describe('Page start', () => {
     await browser.close();
   });
 });
-
-test('should open the page', () => { // стандартная заглушка
-});
